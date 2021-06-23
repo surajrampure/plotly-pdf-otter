@@ -36,11 +36,12 @@ When creating graphs in this assignment, there are two things you will always ha
 1. Assign the graph to a variable name. (As in previous assignments, we will tell you which variable names to use.)
 2. Use the argument `show = False` in your graphing method, in addition to the other arguments you want to use.
 These steps are **required** in order for your work to be graded. The distinction is subtle, since you will see the same visual output either way. See below for an example.  
-<b style="color:green;">Good:</b>
+
+**Good:**
 ```py
 fig_5 = table.sort('other_column').barh('column_name', show = False)
 ```
-<b style="color:red;">Bad:</b>
+**Bad:**
 ```py
 table.sort('other_column').barh('column_name')
 ```
